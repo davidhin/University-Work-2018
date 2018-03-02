@@ -3,12 +3,14 @@
 class Palindrome
 {
 public:
-	Palindrome(char const* phraseIn);
-	char const* phrase;
+	Palindrome(char* phraseIn);
+	char* phrase;
+	int phraseLen;
+	bool isPalindrome();
 
 private:
 	void removeNonLetters();
 	void lowerCase();
-	bool isPalindrome();
 };
+
 

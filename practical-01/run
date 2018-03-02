@@ -1,0 +1,2 @@
+g++ Palindrome.cpp main-1-1.cpp
+./a.out
